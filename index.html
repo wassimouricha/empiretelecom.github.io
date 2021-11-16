@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon"
+    href="iconempire.png">
+    <title>Empire telecom</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/608f7bac6b.js"></script>
+  </head>
+  <body>
+    <!-- page en effet 3d -->
+    <div class="container" id="logohead">
+      <div class="navbar">
+        <div class="menu">
+          <img class="logohead"   src="empire.png" alt="Logo empire telecom">
+          <!-- <h3 class="logo">Empire<span>telecom</span></h3> -->
+          <div class="hamburger-menu">
+            <div class="bar"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-container">
+        <div class="main">
+          <header>
+            <div class="overlay">
+              <div class="inner">
+                <h2 class="title">Investir  Dans l'avenir</h2>
+                <p>
+                  Avec le déploiement des réseaux de télécommunication de demain.
+                </p>
+                <a href="sommaire.html">
+                <button class="btn">En savoir plus</button>
+              </a>
+              </div>
+            </div>
+          </header>
+        </div>
+
+        <div class="shadow one"></div>
+        <div class="shadow two"></div>
+      </div>
+
+      <div class="links">
+        <ul>
+          <li>
+            <a href="index.html" style="--i: 0.05s;">Accueil</a>
+          </li>
+          <li>
+            <a href="apropos.html" style="--i: 0.1s;">À propos</a>
+          </li>
+          <li>
+            <a href="vision.html" style="--i: 0.15s;">Vision</a>
+          </li>
+          <li>
+            <a href="carrière.html" style="--i: 0.2s;">Carrière</a>
+          </li>
+          <li>
+            <a href="#footer" style="--i: 0.3s;">Contact</a>
+          </li>
+        </ul>
+      </div>
+       <!-- Footer -->
+       <footer><a id="footer"></a>
+        <div class="row">
+            <div class="col"><a href="#logohead">
+                <img src="Logo empire.png"
+                    class="logo" alt="logo empire telecom"></a>
+                <p>Investir dans l'avenir avec le déploiement des réseaux de télécommunication de demain</p>
+            </div>
+            <div class="col">
+                <h3>Siège social <div class="underline"><span></span></div></h3>
+                <i class="fas fa-map-marker-alt" id="mappa"></i>
+                <p>2 rue de l'épine</p>
+                <p>Villeneuve d'ascq</p>
+                <p>59491</p>
+            </div>
+            <div class="col">
+                <h3>Contact<div class="underline"><span></span></div></h3>
+                
+                <section id="contact-section">
+                    <div class="containerfoot"> 
+                         <p>N'hésitez plus contactez-nous via nos formulaires, nos équipes vous répondrons dans les plus brefs délais.</p>
+                        <div class="contact-form">
+                            <!-- grille du formulaire -->
+                            <div>
+                                <form  action="https://formspree.io/f/mjvjdldd" method="POST">
+                                    <input type="text" placeholder="Nom"  required>
+                                    <input type="text" placeholder="Prénom"  required>
+                                    <input type="Email" placeholder="E-Mail" required >
+                                    <textarea name="message" placeholder="Votre message" id="" cols="25" rows="5" required></textarea>
+                                    <button type="submit" class="submit">Envoyer</button>
+                                </form>
+                           </div>
+                        </div>
+                    </div>
+                </section>
+                <p class="adressemail"> Adresse e-Mail:contact@empiretelecom.fr</p>
+            </div>
+            <div class="col">
+                <div class="social-icon">
+                <h3>Réseaux sociaux<div class="underline"><span></span></div></h3>
+                      <a href="https://www.linkedin.com/company/empire-t%C3%A9l%C3%A9com/"> <i class="fab fa-linkedin-in"></i></a>          
+                <a href="https://www.facebook.com/empiretelecomfrance"> <i class="fab fa-facebook-f"></i></a> 
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">© 2021. Empire Télécom</p>
+    </footer>
+
+    </div>
+      <!-- trigger pour l'animation 3d avec le hamburger menu -->
+    <script src="app.js"></script>
+  </body>
+</html>
